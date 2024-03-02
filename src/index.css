@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --title-font-size: 30px;
+    --normal-font-weight: 500;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .preheader {
+    padding: 0px 1%;
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .preheader .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-left: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: rgb(236, 46, 46);
+  }
+  
+  .preheader .search {
+    width: 100%;
+    background-color: rgb(248, 54, 69);
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search .icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(50, 50, 50, 0.208);
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .search-icon {
+    color: #fff;
+  }
+  
+  .search input {
+    all: unset;
+    width: 40%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    color: white;
+    border-radius: 5px;
+    background: transparent;
+  }
+  
+  input::placeholder {
+    color: #fff; /* Change placeholder text color to white */
+  }
+  
+  .container {
+    padding: 0px 1%;
+    display: flex;
+    gap: 20px; /* Adjust the gap based on your design */
+    height: 100%;
+  }
+  
+  .navbar-cont {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .navbar-cont a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  h3 {
+    font-size: var(--title-font-size);
+    font-weight: var(--normal-font-weight);
+  }
+  
+
+.main-container{
+    width:fit-content ;
+}
