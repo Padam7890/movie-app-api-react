@@ -22,6 +22,7 @@ const Search = () => {
       submit();
     }
   }
+  
 
   return (
     <>
